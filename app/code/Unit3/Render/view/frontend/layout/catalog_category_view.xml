@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <page layout="2columns-left" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 	<body>
-        <referenceContainer name="sidebar.additional">
+        <!-- <referenceContainer name="sidebar.additional">
 	        <block class="Magento\Framework\View\Element\Template" name="unit3_render_test2" template="Unit3_Render::test2.phtml" after="-">
 	            <arguments>
 	                <argument name="background_color" xsi:type="string">lightskyblue</argument>
 	            </arguments>
 	        </block>
-        </referenceContainer>
+        </referenceContainer> -->
+        <referenceContainer name="content.top" remove="true"/>
     </body>
 </page>
